@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클릭 게임</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1>클릭 게임</h1>
+    <button id="clickButton">클릭하세요!</button>
+    <button id="upgradeButton">업그레이드</button>
+
+    <div id="score">점수: 0</div>
+    <div id="level">레벨: 1</div>
+    <div id="upgradeInfo">업그레이드 레벨: 0 (다음 업그레이드 비용: 10)</div>
+    <div id="timer">남은 시간: 없음</div>
+    <div id="info"></div>
+
+    <div id="leaderboard">
+        <h2>리더보드</h2>
+        <ul id="leaderboardList"></ul>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
